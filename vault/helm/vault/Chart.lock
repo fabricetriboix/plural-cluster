@@ -1,6 +1,6 @@
 dependencies:
 - name: vault
-  repository: cm://app.plural.sh/cm/vault
+  repository: file:///home/fabrice/repos/pluralsh/plural-artifacts/vault/helm/vault
   version: 0.1.2
-digest: sha256:4e759315c7eecdf864740d93a7ad61f4f0c59dc870a8739efbf6f9522e2c39a0
-generated: "2022-04-21T18:53:45.69857858+01:00"
+digest: sha256:bd6ffb07fa9b9010e97b4f9b40492a2419d88f012238d5ff91c8362ec8fc0b49
+generated: "2022-04-22T16:49:35.548519519+01:00"
