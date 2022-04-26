@@ -8,8 +8,9 @@ step "terraform-init" {
   target  = "grafana/terraform"
   command = "terraform"
   args    = ["init"]
-  sha     = ""
+  sha     = "h1:tG4BSDmVWcvEtNXGoVnR6zIfIkKGuxucFBjwCjgqPe8="
   retries = 0
+  verbose = false
 }
 
 step "terraform" {
@@ -23,8 +24,9 @@ step "terraform" {
     "grafana",
   ]
 
-  sha     = ""
+  sha     = "h1:tG4BSDmVWcvEtNXGoVnR6zIfIkKGuxucFBjwCjgqPe8="
   retries = 0
+  verbose = false
 }
 
 step "kube-init" {
@@ -38,8 +40,9 @@ step "kube-init" {
     "grafana",
   ]
 
-  sha     = ""
+  sha     = "a64ea441fe39ef8117bc7003798901fe228ec927f5b42e6fe16caafc08fc3049"
   retries = 0
+  verbose = false
 }
 
 step "helm" {
@@ -53,6 +56,7 @@ step "helm" {
     "grafana",
   ]
 
-  sha     = ""
+  sha     = "h1:MZCK6R2GmuvGHgSAPH9QFZhzbLf7O4TJXhFzmI7m1+I="
   retries = 0
+  verbose = false
 }
