@@ -1,11 +1,10 @@
-*.orig
-.*.swp
 /**/.terraform
 /**/.terraform*
 /**/terraform.tfstate*
 /bin
 *~
 .idea
+*.orig
 *.swp
 *.swo
 .DS_STORE

@@ -1,6 +1,6 @@
 dependencies:
 - name: vault
   repository: file:///home/fabrice/repos/pluralsh/plural-artifacts/vault/helm/vault
-  version: 0.1.2
-digest: sha256:bd6ffb07fa9b9010e97b4f9b40492a2419d88f012238d5ff91c8362ec8fc0b49
-generated: "2022-04-22T16:49:35.548519519+01:00"
+  version: 0.1.3
+digest: sha256:89f9729a52ec9e44ef04801f49438058f17cc0c4ef58bff26592d568612d9383
+generated: "2022-05-09T18:24:52.092078404+01:00"

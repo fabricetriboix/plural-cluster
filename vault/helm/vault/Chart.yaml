@@ -2,8 +2,8 @@ apiVersion: v2
 name: vault
 description: A helm chart for vault
 version: 0.1.0
-appVersion: 0.1.2
+appVersion: 0.1.3
 dependencies:
 - name: vault
-  version: 0.1.2
+  version: 0.1.3
   repository: file:///home/fabrice/repos/pluralsh/plural-artifacts/vault/helm/vault
