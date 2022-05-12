@@ -1,0 +1,6 @@
+dependencies:
+- name: grafana
+  repository: cm://app.plural.sh/cm/grafana
+  version: 0.2.11
+digest: sha256:e1d628351ea31ed9f38b7cf4d22ef62604c5f1ba03b96c5de0519b34635c6a5b
+generated: "2022-05-12T17:01:45.301483166+01:00"
