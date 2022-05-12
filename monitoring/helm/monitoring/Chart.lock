@@ -1,6 +1,0 @@
-dependencies:
-- name: monitoring
-  repository: cm://app.plural.sh/cm/monitoring
-  version: 0.2.11
-digest: sha256:4eb92aec836f176029a848ca13b531ca5887ed56cf0c48447f4fc5f1757f8091
-generated: "2022-05-09T18:24:48.617634224+01:00"
