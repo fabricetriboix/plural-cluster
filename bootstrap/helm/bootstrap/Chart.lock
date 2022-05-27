@@ -5,5 +5,5 @@ dependencies:
 - name: plural-certmanager-webhook
   repository: cm://app.plural.sh/cm/bootstrap
   version: 0.1.4
-digest: sha256:710d88717d43087eece64f44fe83c833e52b8f5c568ef0975667e69bf00c6bff
-generated: "2022-04-22T21:59:18.988221047Z"
+digest: sha256:84cc9fff2a0f1b6bb04b5b8d2639e79be6c439bea0b3dbc2108e6e4a347dbbfd
+generated: "2022-05-24T18:45:52.120447008+01:00"
