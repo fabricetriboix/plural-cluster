@@ -1,0 +1,6 @@
+dependencies:
+- name: vault
+  repository: cm://app.plural.sh/cm/vault
+  version: 0.2.2
+digest: sha256:d6f879fffd9c4206d8c82a1176e518ff9e1a56ce2f0a92fb472e2e2a4a0cc532
+generated: "2022-06-03T22:28:16.538855719+01:00"
