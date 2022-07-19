@@ -8,7 +8,7 @@ step "terraform-init" {
   target  = "vault/terraform"
   command = "terraform"
   args    = ["init"]
-  sha     = ""
+  sha     = "h1:l6INMYmg5detU6O9WN3ELVM1BUIEL3q2OBOvxUYGKoM="
   retries = 0
   verbose = false
 }
@@ -24,7 +24,7 @@ step "terraform" {
     "vault",
   ]
 
-  sha     = ""
+  sha     = "h1:l6INMYmg5detU6O9WN3ELVM1BUIEL3q2OBOvxUYGKoM="
   retries = 0
   verbose = false
 }
@@ -40,7 +40,7 @@ step "kube-init" {
     "vault",
   ]
 
-  sha     = ""
+  sha     = "9302aace2dbb49607359e454bdb8618ea895bddc8d5d0187697c3ed60f7a1b5e"
   retries = 0
   verbose = false
 }
@@ -56,7 +56,7 @@ step "helm" {
     "vault",
   ]
 
-  sha     = ""
+  sha     = "h1:PRFqh54dWEwxefuqbNvxxz7Lp8Z2SIs2Sn0zdDHPgRg="
   retries = 0
   verbose = false
 }
