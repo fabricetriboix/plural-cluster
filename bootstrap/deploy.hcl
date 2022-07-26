@@ -13,7 +13,7 @@ step "terraform-init" {
     "-upgrade",
   ]
 
-  sha     = "h1:G6BN/dO5VGLxhey53L1+8al/zMJzEXRoXiz/dXV6nRM="
+  sha     = "h1:GvNmli8x8iKucwrVOC0d7VXkOPcj4Jq1/GPZ7flf2dg="
   retries = 0
   verbose = false
 }
@@ -28,7 +28,7 @@ step "terraform-apply" {
     "-auto-approve",
   ]
 
-  sha     = "h1:G6BN/dO5VGLxhey53L1+8al/zMJzEXRoXiz/dXV6nRM="
+  sha     = "h1:GvNmli8x8iKucwrVOC0d7VXkOPcj4Jq1/GPZ7flf2dg="
   retries = 1
   verbose = false
 }
@@ -44,7 +44,7 @@ step "terraform-output" {
     "bootstrap",
   ]
 
-  sha     = "h1:G6BN/dO5VGLxhey53L1+8al/zMJzEXRoXiz/dXV6nRM="
+  sha     = "h1:GvNmli8x8iKucwrVOC0d7VXkOPcj4Jq1/GPZ7flf2dg="
   retries = 0
   verbose = false
 }
@@ -59,7 +59,7 @@ step "kube-init" {
     "kube-init",
   ]
 
-  sha     = "a25175a8f3afb6c77df86de106fb7e0fae081f54068989c92946c8e386f40563"
+  sha     = "400db060c1e109023f160821a77fbcefa1c55b9c321926ca652193d10e1f4e9e"
   retries = 0
   verbose = false
 }
@@ -91,7 +91,7 @@ step "bounce" {
     "bootstrap",
   ]
 
-  sha     = "h1:9b2t2I1W7H3k9jVvyGOWYtKXLmTy5X8inJ+WNhW8D9U="
+  sha     = "h1:fmkHgDfFHFSbHzdm60rK/IKGTJ87fZzdEyrkSeOqU9U="
   retries = 1
   verbose = false
 }
