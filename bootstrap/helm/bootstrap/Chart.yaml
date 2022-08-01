@@ -5,7 +5,7 @@ version: 0.1.0
 appVersion: 0.8.47
 dependencies:
 - name: plural-certmanager-webhook
-  version: 0.1.4
+  version: 0.1.5
   repository: cm://app.plural.sh/cm/bootstrap
   condition: plural-certmanager-webhook.enabled
 - name: bootstrap
